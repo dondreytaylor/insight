@@ -1,7 +1,7 @@
 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
   <span ng-if="currency.symbol == 'USD'">USD</span>
-  <span ng-if="currency.symbol == 'BTG'">BTG</span>
-  <span ng-if="currency.symbol == 'mBTG'">mBTG</span>
+  <span ng-if="currency.symbol == 'BTG'">{{currency.realSymbol}}</span>
+  <span ng-if="currency.symbol == 'mBTG'">m{{currency.realSymbol}}</span>
   <span ng-if="currency.symbol == 'bits'">bits</span>
   <span class="caret"></span>
 </a>
@@ -11,10 +11,10 @@
   <a data-ng-click="setCurrency('USD')" data-ng-class="{active: currency.symbol == 'USD'}">USD</a>
   </li>
   <li>
-  <a data-ng-click="setCurrency('BTG')" data-ng-class="{active: currency.symbol == 'BTG'}">BTG</a>
+  <a data-ng-click="setCurrency('BTG')" data-ng-class="{active: currency.symbol == 'BTG'}">{{currency.realSymbol}}</a>
   </li>
   <li>
-  <a data-ng-click="setCurrency('mBTG')" data-ng-class="{active: currency.symbol == 'mBTG'}">mBTG</a>
+  <a data-ng-click="setCurrency('mBTG')" data-ng-class="{active: currency.symbol == 'mBTG'}">m{{currency.realSymbol}}</a>
   </li>
   <li>
   <a data-ng-click="setCurrency('bits')" data-ng-class="{active: currency.symbol == 'bits'}">bits</a>
