@@ -1,8 +1,8 @@
 {
   "name": "insight-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin gold network and build your own services with it.",
   "version": "0.4.0",
-  "repository": "git://github.com/bitpay/insight-ui.git",
+  "repository": "git://github.com/BTCGPU/insight.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -23,15 +23,19 @@
     {
       "name": "Juan Ignacio Sosa Lopez",
       "email": "bechilandia@gmail.com"
+    },
+    {
+      "name": "The Bitcoin Gold Developers",
+      "email": "support@bitcoingold.org"
     }
   ],
   "scripts": {
     "build": "bower install && grunt compile"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/insight-ui/issues"
+    "url": "https://github.com/BTCGPU/insight/issues"
   },
-  "homepage": "https://github.com/bitpay/insight-ui",
+  "homepage": "https://github.com/BTCGPU/insight",
   "license": "MIT",
   "keywords": [
     "insight",
