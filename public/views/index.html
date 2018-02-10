@@ -21,7 +21,7 @@
             </tr>
           </thead>
           <tbody>
-          <tr data-ng-show="!blocks.length"><td colspan="4" translate>Waiting for blocks...</td></tr>
+          <tr data-ng-show="!blocks.length"><td colspan="5" translate>Waiting for blocks...</td></tr>
           <tr class="fader" data-ng-repeat='b in blocks'>
             <td>
               <a href="block/{{b.hash}}">{{b.height}}</a>
@@ -72,7 +72,7 @@
 <div id="footer2" role="navigation">
   <div class="container" data-ng-controller="FooterController">
     <div class="links m20t pull-left">
-      All rights reserved Bitcoin Gold
+     <span style="float:left; padding-left:14px;">All rights reserved Bitcoin Gold</span> <a href="tx/send" translate style="float:right; padding-right:14px;">Broadcast Transaction</a>
     </div>
 <!-- <a class="insight m10v pull-right" target="_blank" href="http://shop.trezor.io" style="
   font-style: normal;
